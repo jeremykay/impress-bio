@@ -101,6 +101,9 @@ a:focus {
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
+small {
+    font-size: 20px;
+}
 
 .fallback-message {
     font-family: sans-serif;
@@ -154,6 +157,10 @@ a:focus {
 
 .impress-enabled .step.active { opacity: 1 }
 
+#hello h1 {
+    margin-bottom: 25px;
+}
+
 #web-developer h1 {
 	font-size: 84px;
 	 -webkit-transform: translateZ(50px);
@@ -205,8 +212,9 @@ a:focus {
 	vertical-align: middle;
 }
 
-#ruby .small {
-    font-size: 20px;
+#happy-unicorn #fun {
+    max-width: 800px;
+    overflow: hidden;
 }
 
 #clunky p {
@@ -228,10 +236,6 @@ a:focus {
     margin-bottom: 10px;
 }
 
-#links .small {
-    font-size: 30px;
-}
-
 </style>
 </head>
 <body>
@@ -239,9 +243,9 @@ a:focus {
 <div id="impress">
 		
 	<div id="hello" class="step" data-x="-8000" data-y="-6000">
-        <h1>Hi, I’m Jeremy Kay</h1>
-        <p>Use your arrow keys or spacebar to navigate,<br>
-            or swipe if you’re on a touch device.</p>
+        <h1>Hi, I’m Jeremy Kay.</h1>
+        <small>(use your arrow keys or spacebar to navigate,<br>
+                    or swipe if you’re on a touch device.)</small>
     </div>
 
 	<div class="step" data-x="-6000" data-y="-6000">
@@ -250,7 +254,7 @@ a:focus {
 
     <div id="web-developer" class="step" data-x="-4000" data-y="-6000" data-rotate="90" data-scale="1">
         <p>I’m a front and back end</p>
-        <h1>Web Developer</h1>
+        <h1>Web Developer.</h1>
     </div>
 
     <div id="yay-coding" class="step" data-x="-5000" data-y="-6000" data-rotate="90" data-z="-100">
@@ -291,23 +295,32 @@ a:focus {
     </div>
   
     <div id="rails" class="step" data-x="0" data-y="-450" data-rotate="720" data-z="-4000"  data-rotate-x="-90">
-        <p>...and of course, <b>Rails</b></p>
+        <p>...and of course, <b>Rails.</b></p>
         <embed src="img/rails-logo.svg" type="image/svg+xml">
     </div>
 
     <div id="clunky" class="step" data-x="0" data-y="-450" data-rotate="720" data-z="-4000" data-rotate-x="-90" data-rotate-y="90">
-        <p>It makes PHP seem seem old and clunky...</p>
+        <p>It makes PHP seem seem old and clunky.</p>
         <img src="img/clunky.jpg" height="165" width="250" alt="Old n Clunky">
     </div>
- <!-- 
-    <div id="object-oriented" class="step" data-x="3000" data-y="-1000" data-rotate="720" data-z="-8000" data-scale="2.5">
-        <p>Learning <a href="http://www.amazon.com/dp/0321721330" target="_blank">Object-Oriented programming</a> has been fascinating.</p>
-    </div> -->
+ 
+    <div id="object-oriented" class="step" data-x="-2000" data-y="-650" data-rotate="720" data-z="2000" data-scale="2.5" data-rotate-x="40">
+        <p>Ruby’s <a href="http://www.amazon.com/dp/0321721330" target="_blank">Object-Oriented approach</a> is space-age...</p>
+        <img src="img/space-age.jpg" height="150" width="222" alt="Jetsons">
+    </div>
+
+    <div id="happy-unicorn" class="step" data-x="1500" data-y="-650" data-rotate="720" data-z="3000" data-scale="2.5" data-rotate-x="40">
+        <p>...and way more fun.</p>
+        <div id="fun">
+            <img src="img/jagger-bowie.jpg" width="59%" alt="Mick and David">
+            <img src="img/UnicornRainbow.jpg" width="40%"  alt="Unicorn Fun Zone">
+        </div>
+    </div>
 
     <div id="links" class="step" data-x="3000" data-y="-1000" data-rotate="720" data-z="-8000" data-scale="2.5">
-        <h2>If you want to know more about me:</h2>
+        <h2>Thanks for reading! If you want to know more about me:</h2>
         <ul>
-            <li><a href="http://www.nobledesktop.com" target="_blank">Check out Noble Desktop</a> <span class="small"> (Where I’m a developer and instructor)</span></li>
+            <li><a href="http://www.nobledesktop.com" target="_blank">Check out Noble Desktop</a> <small> (Where I’m a developer and instructor)</small></li>
             <li><a href="http://www.jeremynathankay.com/resume/Jeremy_Kay_Resume.pdf" target="_blank">Download My Resume</a></li>
             <li><a href="https://github.com/jeremykay" target="_blank">View My GitHub</a></li>
             <li><a href="mailto:jeremykaybass@gmail.com">Email Me</a></li>
