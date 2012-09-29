@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>Jeremy Kay</title>
 <style type="text/css">
 
 html, body, div, span, applet, object, iframe,
@@ -53,7 +53,7 @@ table {
 
 
 body {
-    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'PT Sans', sans-serif;
     min-height: 740px;
     
     background: rgb(215, 215, 215);
@@ -136,7 +136,7 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    /*font-family: 'PT Serif', georgia, serif;*/
+    font-family: 'PT Serif', georgia, serif;
     line-height: 1.5;
     text-align: center;
 }
@@ -184,11 +184,11 @@ a:focus {
     -o-transform:      scale(1.4);
     transform:         scale(1.4);
 
-    -webkit-transition-duration: 1.3s;
-    -moz-transition-duration:    1.3s;
-    -ms-transition-duration:     1.3s;
-    -o-transition-duration:      1.3s;
-    transition-duration:         1.3s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration:    1s;
+    -ms-transition-duration:     1s;
+    -o-transition-duration:      1s;
+    transition-duration:         1s;
 
     -webkit-transition-delay: 0.5s;
     -moz-transition-delay:    0.5s;
@@ -204,37 +204,66 @@ a:focus {
 #php img {
 	vertical-align: middle;
 }
+
+#ruby .small {
+    font-size: 20px;
+}
+
+#clunky p {
+    margin-bottom: 40px;
+}
+
+#links {
+    text-align: left;
+}
+
+#links h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#links li {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#links .small {
+    font-size: 30px;
+}
+
 </style>
 </head>
 <body>
 
-	<div id="impress">
+<div id="impress">
 		
-		<div id="hello" class="step" data-x="-1000" data-y="-1500">
+	<div id="hello" class="step" data-x="-8000" data-y="-6000">
         <h1>Hi, I’m Jeremy Kay</h1>
-        <p>(Use your arrow keys or spacebar to navigate)</p>
+        <p>Use your arrow keys or spacebar to navigate,<br>
+            or swipe if you’re on a touch device.</p>
     </div>
 
-		<div class="step" data-x="0" data-y="-1500">
+	<div class="step" data-x="-6000" data-y="-6000">
         <p>How about I tell you a little about myself?</p>
     </div>
 
-    <div id="web-developer" class="step" data-x="1000" data-y="-1500" data-rotate="90" data-scale="1">
+    <div id="web-developer" class="step" data-x="-4000" data-y="-6000" data-rotate="90" data-scale="1">
         <p>I’m a front and back end</p>
         <h1>Web Developer</h1>
     </div>
 
-    <div id="yay-coding" class="step" data-x="0" data-y="-2500" data-rotate="90" data-z="-100">
+    <div id="yay-coding" class="step" data-x="-5000" data-y="-6000" data-rotate="90" data-z="-100">
         <p>Coding puts my mind at ease.</p>
         <p>It’s fun...</p>
     </div>
 
-    <div id="useful" class="step" data-x="0" data-y="-500" data-rotate="90">
+    <div id="useful" class="step" data-x="-5000" data-y="-5000" data-rotate="90">
         <p>...and useful.</p>
     </div>
 
-    <div id="noble-desktop" class="step" data-x="0" data-y="-900" data-rotate="360" data-z="-8000">
-        <h1><a href="http://www.nobledesktop.com" target="_new">I work at Noble Desktop,</a></h1>
+    <div id="noble-desktop" class="step" data-x="-5000" data-y="1000" data-rotate="360" data-z="-8000">
+        <h1>I work at <a href="http://www.nobledesktop.com" target="_blank">Noble Desktop</a></h1>
         	<p>
         	where I’m an <b>instructor</b> and<br>
         	<b class="developer">lead back end developer.</b>
@@ -253,12 +282,42 @@ a:focus {
         <p>As well as HTML, CSS, JavaScript, and jQuery.</p>
     </div>
 
+    <div id="true-love" class="step" data-x="0" data-y="-1600" data-rotate="720" data-z="-8000">
+        <p>But my real love these days is...</p>
+    </div>
 
-	</div>
+    <div id="ruby" class="step" data-x="0" data-y="-1000" data-rotate="720" data-z="-4000">
+        <img src="img/ruby.png" height="498" width="498">
+    </div>
+  
+    <div id="rails" class="step" data-x="0" data-y="-450" data-rotate="720" data-z="-4000"  data-rotate-x="-90">
+        <p>...and of course, <b>Rails</b></p>
+        <embed src="img/rails-logo.svg" type="image/svg+xml">
+    </div>
+
+    <div id="clunky" class="step" data-x="0" data-y="-450" data-rotate="720" data-z="-4000" data-rotate-x="-90" data-rotate-y="90">
+        <p>It makes PHP seem seem old and clunky...</p>
+        <img src="img/clunky.jpg" height="165" width="250" alt="Old n Clunky">
+    </div>
+ <!-- 
+    <div id="object-oriented" class="step" data-x="3000" data-y="-1000" data-rotate="720" data-z="-8000" data-scale="2.5">
+        <p>Learning <a href="http://www.amazon.com/dp/0321721330" target="_blank">Object-Oriented programming</a> has been fascinating.</p>
+    </div> -->
+
+    <div id="links" class="step" data-x="3000" data-y="-1000" data-rotate="720" data-z="-8000" data-scale="2.5">
+        <h2>If you want to know more about me:</h2>
+        <ul>
+            <li><a href="http://www.nobledesktop.com" target="_blank">Check out Noble Desktop</a> <span class="small"> (Where I’m a developer and instructor)</span></li>
+            <li><a href="http://www.jeremynathankay.com/resume/Jeremy_Kay_Resume.pdf" target="_blank">Download My Resume</a></li>
+            <li><a href="https://github.com/jeremykay" target="_blank">View My GitHub</a></li>
+            <li><a href="mailto:jeremykaybass@gmail.com">Email Me</a></li>
+            <li><a href="http://jeremykay.wordpress.com" target="_blank">I’m a musician, too</a></li>
+        </ul>
+    </div>
+
+</div>
 	
-
-
-	<script src="js/impress.js"></script>
-	<script>impress().init();</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
 </body>
 </html>
