@@ -50,6 +50,10 @@ table {
 /* end reset css */
 
 body {
+
+    // this is to prevent FOUC while page loading
+    display: none;
+
     font-family: 'PT Serif', georgia, serif;
     color: #222222;
     min-height: 740px;
@@ -60,6 +64,11 @@ body {
     background: -o-radial-gradient(center, ellipse cover,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
     background: -ms-radial-gradient(center, ellipse cover,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
     background: radial-gradient(ellipse at center,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
+}
+
+body.impress-supported, body.impress-not-supported {
+    // this is to prevent FOUC while page loading
+    display: inline;
 }
 
 b, strong { font-weight: bold }
@@ -105,6 +114,7 @@ small {
 }
 
 .fallback-message {
+    display: none;
     font-family: sans-serif;
     line-height: 1.3;
     
@@ -117,6 +127,10 @@ small {
     background: #EEDC94;
 }
 
+.impress-not-supported .fallback-message {
+    display: block;
+}
+
 .fallback-message p {
     margin-bottom: 10px;
 }
@@ -124,7 +138,6 @@ small {
 .impress-supported .fallback-message {
     display: none;
 }
-
 
 .step {
     position: relative;
