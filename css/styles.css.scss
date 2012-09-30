@@ -50,10 +50,6 @@ table {
 /* end reset css */
 
 body {
-
-    // this is to prevent FOUC while page loading
-    display: none;
-
     font-family: 'PT Serif', georgia, serif;
     color: #222222;
     min-height: 740px;
@@ -67,7 +63,7 @@ body {
 }
 
 body.impress-supported, body.impress-not-supported {
-    // this is to prevent FOUC while page loading
+    // once the JS is loaded, display the content again
     display: inline;
 }
 
