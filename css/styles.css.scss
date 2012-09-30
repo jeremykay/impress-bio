@@ -74,13 +74,23 @@ body {
     font-family: 'PT Sans', sans-serif;
     color: #222222;
     min-height: 740px;
-    background: rgb(255,251,247);
-    background: -moz-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%, rgb(255,249,249) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(28%,rgb(255,251,247)), color-stop(100%,rgb(255,249,249)));
-    background: -webkit-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
-    background: -o-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
-    background: -ms-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
-    background: radial-gradient(ellipse at center,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
+    // background: rgb(255,251,247);
+    // background: -moz-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%, rgb(255,249,249) 100%);
+    // background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(28%,rgb(255,251,247)), color-stop(100%,rgb(255,249,249)));
+    // background: -webkit-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
+    // background: -o-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
+    // background: -ms-radial-gradient(center, ellipse cover,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
+    // background: radial-gradient(ellipse at center,  rgb(255,251,247) 28%,rgb(255,249,249) 100%);
+
+    background: rgb(255,255,255);
+background: -moz-radial-gradient(center, ellipse cover,  rgb(255,255,255) 40%, rgb(255,249,249) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,rgb(255,255,255)), color-stop(100%,rgb(255,249,249)));
+background: -webkit-radial-gradient(center, ellipse cover,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
+background: -o-radial-gradient(center, ellipse cover,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
+background: -ms-radial-gradient(center, ellipse cover,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
+background: radial-gradient(ellipse at center,  rgb(255,255,255) 40%,rgb(255,249,249) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff9f9',GradientType=1 );
+
 }
 
 b, strong { font-weight: bold }
