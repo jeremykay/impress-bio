@@ -222,8 +222,8 @@ small {
 
 #html-css-js {
     width: 600px;
-    letter-spacing: 1.5px;
-    word-spacing: 5px;
+    // letter-spacing: 1.5px;
+    word-spacing: 10px;
     b {
         display: inline-block;
         -webkit-transition: 0.5s;
@@ -250,6 +250,10 @@ small {
 
 #html-css-js.present .html {
     @include html-scale;
+}
+
+#html-css-js.present .css {
+    @include html-scale;
 
     -webkit-transition-delay: 0.5s;
     -moz-transition-delay:    0.5s;
@@ -258,7 +262,7 @@ small {
     transition-delay:         0.5s;
 }
 
-#html-css-js.present .css {
+#html-css-js.present .javascript {
     @include html-scale;
 
     -webkit-transition-delay: 1s;
@@ -268,7 +272,7 @@ small {
     transition-delay:         1s;
 }
 
-#html-css-js.present .javascript {
+#html-css-js.present .jquery {
     @include html-scale;
 
     -webkit-transition-delay: 1.5s;
@@ -276,16 +280,6 @@ small {
     -ms-transition-delay:     1.5s;
     -o-transition-delay:      1.5s;
     transition-delay:         1.5s;
-}
-
-#html-css-js.present .jquery {
-    @include html-scale;
-
-    -webkit-transition-delay: 2s;
-    -moz-transition-delay:    2s;
-    -ms-transition-delay:     2s;
-    -o-transition-delay:      2s;
-    transition-delay:         2s;
 }
 
 #clunky p {
