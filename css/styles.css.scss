@@ -220,6 +220,74 @@ small {
     }
 }
 
+#html-css-js {
+    width: 600px;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    b {
+        display: inline-block;
+        -webkit-transition: 0.5s;
+        -moz-transition:    0.5s;
+        -ms-transition:     0.5s;
+        -o-transition:      0.5s;
+        transition:         0.5s;
+    }
+}
+
+@mixin html-scale {
+    -webkit-transform: scale(1.1);
+    -moz-transform:    scale(1.1);
+    -ms-transform:     scale(1.1);
+    -o-transform:      scale(1.1);
+    transform:         scale(1.1);
+
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration:    1s;
+    -ms-transition-duration:     1s;
+    -o-transition-duration:      1s;
+    transition-duration:         1s;
+}
+
+#html-css-js.present .html {
+    @include html-scale;
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
+
+#html-css-js.present .css {
+    @include html-scale;
+
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay:    1s;
+    -ms-transition-delay:     1s;
+    -o-transition-delay:      1s;
+    transition-delay:         1s;
+}
+
+#html-css-js.present .javascript {
+    @include html-scale;
+
+    -webkit-transition-delay: 1.5s;
+    -moz-transition-delay:    1.5s;
+    -ms-transition-delay:     1.5s;
+    -o-transition-delay:      1.5s;
+    transition-delay:         1.5s;
+}
+
+#html-css-js.present .jquery {
+    @include html-scale;
+
+    -webkit-transition-delay: 2s;
+    -moz-transition-delay:    2s;
+    -ms-transition-delay:     2s;
+    -o-transition-delay:      2s;
+    transition-delay:         2s;
+}
+
 #clunky p {
     margin-bottom: 40px;
 }
