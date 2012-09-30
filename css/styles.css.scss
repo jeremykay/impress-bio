@@ -248,11 +248,11 @@ small {
     -o-transform:      scale(1.1);
     transform:         scale(1.1);
 
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration:    1s;
-    -ms-transition-duration:     1s;
-    -o-transition-duration:      1s;
-    transition-duration:         1s;
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration:    0.6s;
+    -ms-transition-duration:     0.6s;
+    -o-transition-duration:      0.6s;
+    transition-duration:         0.6s;
 }
 
 #html-css-js.present .html {
@@ -262,31 +262,31 @@ small {
 #html-css-js.present .css {
     @include html-scale;
 
-    -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay:    0.2s;
+    -ms-transition-delay:     0.2s;
+    -o-transition-delay:      0.2s;
+    transition-delay:         0.2s;
 }
 
 #html-css-js.present .javascript {
     @include html-scale;
 
-    -webkit-transition-delay: 1s;
-    -moz-transition-delay:    1s;
-    -ms-transition-delay:     1s;
-    -o-transition-delay:      1s;
-    transition-delay:         1s;
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay:    0.4s;
+    -ms-transition-delay:     0.4s;
+    -o-transition-delay:      0.4s;
+    transition-delay:         0.4s;
 }
 
 #html-css-js.present .jquery {
     @include html-scale;
 
-    -webkit-transition-delay: 1.5s;
-    -moz-transition-delay:    1.5s;
-    -ms-transition-delay:     1.5s;
-    -o-transition-delay:      1.5s;
-    transition-delay:         1.5s;
+    -webkit-transition-delay: 0.8s;
+    -moz-transition-delay:    0.8s;
+    -ms-transition-delay:     0.8s;
+    -o-transition-delay:      0.8s;
+    transition-delay:         0.8s;
 }
 
 #clunky p, #object-oriented p, #happy-unicorn p  {
