@@ -204,11 +204,11 @@ small {
     -o-transition-timing-function:      ease-out;
     transition-timing-function:         ease-out;
 
-    -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay:    0.3s;
+    -ms-transition-delay:     0.3s;
+    -o-transition-delay:      0.3s;
+    transition-delay:         0.3s;
 }
 
 #php {
@@ -222,8 +222,6 @@ small {
 
 #html-css-js {
     width: 600px;
-    // letter-spacing: 1.5px;
-    word-spacing: 10px;
     b {
         display: inline-block;
         -webkit-transition: 0.5s;
@@ -282,7 +280,7 @@ small {
     transition-delay:         1.5s;
 }
 
-#clunky p {
+#clunky p, #object-oriented p, #happy-unicorn p  {
     margin-bottom: 40px;
 }
 
