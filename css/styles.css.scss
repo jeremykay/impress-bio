@@ -289,11 +289,11 @@ small {
     transform:         translateY(0px);
     
 
-    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
-    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
-    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
-    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
-    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+    -webkit-transition: opacity 1s 4s, -webkit-transform 0.5s 3.5s;
+    -moz-transition:    opacity 1s 4s,    -moz-transform 0.5s 3.5s;
+    -ms-transition:     opacity 1s 4s,     -ms-transform 0.5s 3.5s;
+    -o-transition:      opacity 1s 4s,      -o-transform 0.5s 3.5s;
+    transition:         opacity 1s 4s,         transform 0.5s 3.5s;
 }
 
 .impress-enabled          { pointer-events: none }
