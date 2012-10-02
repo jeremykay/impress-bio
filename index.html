@@ -97,13 +97,19 @@ body {
 <div class="hint">
     <p>Use the spacebar or arrow keys to navigate.</p>
 </div>
+
 <script>
 if ("ontouchstart" in document.documentElement) { 
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate.</p>";
 }
 </script>
-	
 <script src="js/impress-min.js"></script>
 <script>impress().init();</script>
+<script>
+    var _gaq=[['_setAccount','UA-25952043-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 </body>
 </html>
